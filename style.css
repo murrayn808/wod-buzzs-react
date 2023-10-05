@@ -23,3 +23,8 @@ body {
 div.nav-item.nav-link {
   color: white;
 }
+
+.brmedium {
+  display: block;
+  margin-bottom: 1em;
+}
