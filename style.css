@@ -1,31 +1,18 @@
 body {
-  background: url("wod-buzzs-background.jpg") no-repeat center center fixed;
-  background-size: cover;
-  --bs-light-rgb: 48,73,95;
+    --bs-light-rgb: 48,73,95;
+    background: url("wod-buzzs-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    --bs-navbar-brand-color: white;
 }
 
 #topMenu {
-  color: white;
-  padding-bottom: 15px;
+    color: white;
 }
 
-#centerText {
-  color: white;
-  height: 500px;
-}
-
-#bottomMenu {
-  background-color: white;
-  color: black;
-  font-size: 20px;
-}
-
-div.nav-item.nav-link {
-  color: white;
-  font-size: 20px;
-}
-
-.brmedium {
-  display: block;
-  margin-bottom: 1em;
+footer {
+    background-color: white;
+    font-family: 'Noto Serif';
 }
